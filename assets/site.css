@@ -1384,6 +1384,11 @@ body.people-page .profile-photo {
   aspect-ratio: 1 / 1;
 }
 
+body.people-page .profile h3,
+body.people-page .profile p {
+  text-align: center;
+}
+
 body.people-page .people-grid > *,
 body.people-page .grid > *,
 body.people-page .profile,
