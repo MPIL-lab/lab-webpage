@@ -1392,11 +1392,17 @@ body.people-page .timeline {
 }
 
 body.people-page .profile h3 a {
+  text-decoration: underline;
   color: var(--heading);
 }
 
 body.people-page .profile h3 a:hover {
+  text-decoration: underline;
   color: var(--heading);
+}
+
+body.people-page .profile h3 .faculty-title {
+  text-decoration: none;
 }
 
 @media (max-width: 980px) {
