@@ -1,0 +1,13 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Local Codex/agent state
+.codex/
+.agents/
+AGENTS.md
+
+# Local editor and temporary files
+*.tmp
+*.log
+*~
