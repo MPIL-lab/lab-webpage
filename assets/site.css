@@ -1648,6 +1648,7 @@ body.research-page .research-direction:first-of-type {
 body.research-page .research-direction-media {
   display: grid;
   min-height: 210px;
+  align-self: center;
   align-items: center;
   background: var(--pale);
 }
