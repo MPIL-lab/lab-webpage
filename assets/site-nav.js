@@ -79,6 +79,7 @@
   };
 
   const activeKey = getActiveKey();
+  const labLogoPath = `${basePath}/assets/mpil-lab-logo.svg`;
   const logoPath = `${basePath}/assets/LU%20-%20Logo%20-%20Reversed%20_RGB_.png`;
 
   const linksHtml = navItems
@@ -91,7 +92,7 @@
   navHost.innerHTML = `
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="${resolve("index.html")}" aria-label="Multimodal Perception and Intelligence Learning Lab home">
-        Multimodal Perception and Intelligence Learning Lab
+        <img class="brand-logo" src="${labLogoPath}" alt="MPIL Lab">
       </a>
       <div class="nav-links">${linksHtml}</div>
       <a class="lancaster-logo" href="https://www.lancaster.ac.uk/" aria-label="Lancaster University home">

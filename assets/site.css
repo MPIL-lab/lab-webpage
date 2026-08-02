@@ -1831,7 +1831,7 @@ body .site-header .nav > .brand {
   align-items: center;
   justify-content: flex-start;
   padding: 0 28px;
-  background: #000 !important;
+  background: var(--accent) !important;
   border: 0 !important;
   box-shadow: none !important;
   color: #fff !important;
@@ -1845,9 +1845,18 @@ body .site-header .nav > .brand {
   text-wrap: balance;
 }
 
+.site-header .brand-logo {
+  display: block;
+  box-sizing: border-box;
+  width: min(100%, 276px);
+  height: auto;
+  padding: 12px 18px;
+  background: #fff;
+}
+
 .site-header .nav > .brand:hover,
 body .site-header .nav > .brand:hover {
-  background: #000 !important;
+  background: var(--accent) !important;
   color: #fff !important;
   text-decoration: none;
 }
