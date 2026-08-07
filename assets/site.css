@@ -1246,6 +1246,43 @@ body .publication-item mark {
   background: #f3c7cf;
 }
 
+body .publication-links {
+  display: block;
+  margin-top: 7px;
+}
+
+body .publication-link {
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.42;
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+body .publication-link-separator {
+  color: var(--accent);
+  font-size: 17px;
+  line-height: 1.42;
+}
+
+body a.publication-link:hover {
+  text-decoration: underline;
+}
+
+body .publication-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  body .publication-link,
+  body .publication-link-separator {
+    font-size: 16px;
+  }
+}
+
 body .site-footer {
   border-top: 4px solid var(--accent);
   background: var(--accent);
